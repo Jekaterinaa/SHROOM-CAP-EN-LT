@@ -8,7 +8,7 @@ from prompts.user_prompt import lt_transformers_user_prompt
 # --- Configuration ---
 # MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
 MODEL_NAME = "google/gemma-2-9b-it"
-OUTPUT_FILE = "data/lt_train_data.jsonl"
+OUTPUT_FILE = "../data/lt_train_data.jsonl"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MAX_NEW_TOKENS = 1024
 TEMPERATURE = 0.7
